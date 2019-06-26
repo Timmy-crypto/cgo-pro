@@ -20,6 +20,7 @@ run cmd
     ./cmd
     
 cmd example
+
     rpc -m CgoTestF5
     rpc -m CgoTestCxxSum -p 5,1,2,3,4,5
     
