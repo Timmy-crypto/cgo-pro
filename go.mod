@@ -1,4 +1,4 @@
-module cgo-pro
+module github.com/yangchuang123456/cgo-pro
 
 go 1.12
 

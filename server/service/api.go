@@ -1,6 +1,6 @@
 package service
 
-import "github.com/vntchain/go-vnt/log"
+import "github.com/dipperin/dipperin-core/third-party/log"
 
 type CgoProApi struct {
 	service *CgoService
