@@ -1,5 +1,5 @@
 #ignore .o .so and exe
 *.o
 *.so
-./bin/*
-./lib/*
+cmd
+server
