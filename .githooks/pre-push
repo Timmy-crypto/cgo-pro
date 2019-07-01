@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "run test pre push"
+
 git reset HEAD .
 count=`git diff|wc -l`
 
