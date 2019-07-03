@@ -23,7 +23,7 @@ func appAction(c *cli.Context) error {
 		WSHost:c.String(common.WsHostFlagName),
 		HttpEndpoint: c.Int(common.HttpPortFlagName),
 		WsEndpoint:c.Int(common.WsPortFlagName),
-		AllowHosts:[]string{"127.0.0.1"},
+		AllowHosts:[]string{"*"},
 	}
 	service.InitRpc(endPointsConf)
 
